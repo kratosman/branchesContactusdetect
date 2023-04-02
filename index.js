@@ -5,7 +5,7 @@ var nearBranch = document.querySelector('.nearBranch');
 // a = sin2(dlat/2) + cos(lat1) * cos(lat2) * sin2(dlon/2);
 // HAVIRSINES FORMULA 
 function calculateDistance(lat1,lat2, lon1, lon2) {
-    var R = 6371;
+    var R = 1.29;
     var dLat = deg2rad(lat2 - lat1);
     var dLon = deg2rad(lon2 - lon1);
 
